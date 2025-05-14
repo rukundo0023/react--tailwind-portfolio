@@ -8,7 +8,7 @@ const projects = [
         image: "/projects/book1.jpg",
         Tag: "Flutter",
         DemoUrl: "#",
-        GithubUrl: "#",
+        GithubUrl: "https://github.com/rukundo0023/react--tailwind-portfolio",
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const projects = [
         image: "/projects/book2.jpg",
         Tag: "react, tailwind, typescript",
         DemoLink: "#",
-        GithubLink: "#"
+        GithubLink: "https://github.com/rukundo0023/react--tailwind-portfolio"
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ const projects = [
         image: "/projects/book1.jpg",
         Tag: "react, tailwind, typescript",
         DemoLink: "#",
-        GithubLink: "#"
+        GithubLink: "https://github.com/rukundo0023/react--tailwind-portfolio"
     }
 ];
 
