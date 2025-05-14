@@ -10,10 +10,15 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 ## 🛠️ Technologies Used
 
 HTMLfor structure
+
 CSSfor styling
+
 Tailwind CSS for utility-first styling
+
 JavaScript/TypeScript for interactivity
+
 React (optional) for building interactive components
+
 Vitefor fast build and development
 
 ---
