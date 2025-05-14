@@ -1,5 +1,7 @@
 import { Briefcase, Code, User } from "lucide-react";
 
+
+
 export const AboutSection = () => {
     return (
         <section id="about" className="py-24 px-4 relative">
@@ -23,7 +25,7 @@ export const AboutSection = () => {
                             <a href="#contact" className="cosmic-button bg-amber-50 text-black">
                                 Get in touch
                             </a>
-                            <a href="#" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download CV
                             </a>
                         </div>
