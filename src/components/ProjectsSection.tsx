@@ -3,29 +3,29 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "AgriTech",
-        description: "A mobile app for farmers to monitor their crops and receive notifications about diseases and pests",
-        image: "/projects/book1.jpg",
-        Tag: "Flutter",
-        DemoUrl: "#",
+        title: "loanapprovalmodel",
+        description: "Machine learning model for approving loans",
+        image: "/projects/loanapproval.png",
+        Tag: "python, machine learning",
+        DemoUrl: "https://rukundo0023-loanapprovelmodel-app-pnyhin.streamlit.app/",
         GithubUrl: "https://github.com/rukundo0023/react--tailwind-portfolio",
     },
     {
         id: 2,
         title: "EmpowerherTech",
         description: "A website for learning tech basics for women",
-        image: "/projects/book2.jpg",
+        image: "/projects/loanapproval.png",
         Tag: "react, tailwind, typescript",
         DemoLink: "#",
         GithubLink: "https://github.com/rukundo0023/react--tailwind-portfolio"
     },
     {
         id: 3,
-        title: "BookHub",
-        description: "A single page application for reading books",
-        image: "/projects/book1.jpg",
-        Tag: "react, tailwind, typescript",
-        DemoLink: "#",
+        title: "loanapprovalmodel",
+        description: "Machine learning model for approving loans",
+        image: "/projects/loanapproval.png",
+        Tag: "Python, Machine Learning",
+        DemoLink: "https://rukundo0023-loanapprovelmodel-app-pnyhin.streamlit.app/",
         GithubLink: "https://github.com/rukundo0023/react--tailwind-portfolio"
     }
 ];
