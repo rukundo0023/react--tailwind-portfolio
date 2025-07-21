@@ -16,8 +16,8 @@ const projects = [
         description: "A website for learning tech basics for women",
         image: "/projects/loanapproval.png",
         Tag: "react, tailwind, typescript",
-        DemoLink: "#",
-        GithubLink: "https://github.com/rukundo0023/react--tailwind-portfolio"
+        DemoLink: "https://empowerhered-1ixh.vercel.app/",
+        GithubLink: "https://github.com/rukundo0023/empowerhered"
     },
     {
         id: 3,
