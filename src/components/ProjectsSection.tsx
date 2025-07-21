@@ -56,10 +56,10 @@ export const ProjectsSection = () => {
                                     <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
                                     <div className="flex justify-between items-center">
                                         <div className="flex space-x-3">
-                                            <a href={project.DemoUrl || project.DemoLink} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                            <a href={project.DemoUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                                 <ExternalLink size={20} />
                                             </a>
-                                            <a href={project.GithubUrl || project.GithubLink} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                            <a href={project.GithubUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                                 <Github size={20} />
                                             </a>
                                         </div>
