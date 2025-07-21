@@ -14,20 +14,11 @@ const projects = [
         id: 2,
         title: "EmpowerherTech",
         description: "A website for learning tech basics for women",
-        image: "/projects/loanapproval.png",
+        image: "/projects/empowerher.png",
         Tag: "react, tailwind, typescript",
-        DemoLink: "https://empowerhered-1ixh.vercel.app/",
-        GithubLink: "https://github.com/rukundo0023/empowerhered"
+        DemoUrl: "https://empowerhered-1ixh.vercel.app/",
+        GithubUrl: "https://github.com/rukundo0023/empowerhered"
     },
-    {
-        id: 3,
-        title: "loanapprovalmodel",
-        description: "Machine learning model for approving loans",
-        image: "/projects/loanapproval.png",
-        Tag: "Python, Machine Learning",
-        DemoLink: "https://rukundo0023-loanapprovelmodel-app-pnyhin.streamlit.app/",
-        GithubLink: "https://github.com/rukundo0023/react--tailwind-portfolio"
-    }
 ];
 
 export const ProjectsSection = () => {
