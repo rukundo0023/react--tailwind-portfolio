@@ -16,9 +16,18 @@ const projects = [
         description: "A website for learning tech basics for women",
         image: "/projects/empowerher.png",
         Tag: "react, tailwind, typescript",
-        DemoUrl: "https://empowerhered-1ixh.vercel.app/",
-        GithubUrl: "https://github.com/rukundo0023/empowerhered"
+        DemoLink: "https://empowerhered-1ixh.vercel.app/",
+        GithubLink: "https://github.com/rukundo0023/empowerhered"
     },
+    {
+        id: 3,
+        title: "loanapprovalmodel",
+        description: "Machine learning model for approving loans",
+        image: "/projects/loanapproval.png",
+        Tag: "Python, Machine Learning",
+        DemoLink: "https://rukundo0023-loanapprovelmodel-app-pnyhin.streamlit.app/",
+        GithubLink: "https://github.com/rukundo0023/react--tailwind-portfolio"
+    }
 ];
 
 export const ProjectsSection = () => {
@@ -56,10 +65,10 @@ export const ProjectsSection = () => {
                                     <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
                                     <div className="flex justify-between items-center">
                                         <div className="flex space-x-3">
-                                            <a href={project.DemoUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                            <a href={project.DemoUrl || project.DemoLink} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                                 <ExternalLink size={20} />
                                             </a>
-                                            <a href={project.GithubUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                            <a href={project.GithubUrl || project.GithubLink} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                                 <Github size={20} />
                                             </a>
                                         </div>
